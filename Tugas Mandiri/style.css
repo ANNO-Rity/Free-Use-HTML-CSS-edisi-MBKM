@@ -1,0 +1,40 @@
+#ABOUT {
+    text-align: center;
+    background-color: #a3cfcf;
+    font-size: 24px;
+    padding-bottom: 2rem;
+}
+
+#desc p {
+    padding: 3rem;
+}
+#Gallery {
+    padding: 2rem;
+    background-color: #a1d2f3;
+}
+
+#Gallery h3 {
+    text-align: center;
+}
+
+#Gallery img {
+    border-radius: 5%;
+    height: 300px;
+    box-shadow: 0px 10px 5px #2b2b2b;
+    margin: 10px;
+}
+.desc {
+    padding: 2rem;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Watermark {
+    background-color: #1b1b3b;
+    text-align: center;
+    color: white;
+    margin-top: -15px;
+    padding-bottom: 2rem;
+    font-size: larger;
+    font-family: equestria;
+}

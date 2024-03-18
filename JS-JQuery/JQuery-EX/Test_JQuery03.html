@@ -1,0 +1,28 @@
+<!-- test JQuery dengan HTML -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <button id="banner">
+        Click Me !
+    </button>
+
+    <button id="DBL">
+        hit me !
+    </button>
+    <script>
+        $('button#banner').click(function() {
+            alert("you clicked me! lmfao!");
+        });
+
+        $('button#DBL').dblclick(function() {
+            alert('YOU DID IT! XD');
+        });
+    </script>
+</body>
+</html>

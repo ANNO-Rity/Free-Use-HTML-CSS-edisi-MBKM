@@ -1,0 +1,75 @@
+body {
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#ABOUT {
+    text-align : center;
+    background-color: #c2c2c2;
+    font-size: 24px;
+    padding-bottom: 2rem;
+}
+
+#container {
+    padding-top: 15px;
+        display: flex;
+        justify-content: center;
+        margin-left: 20px;
+        margin-right: 20px;
+}
+
+.column1 {
+    flex: 1;
+    padding: 10px;
+    background-color: #3d3d3d;
+    color: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.column2 {
+    flex: 1;
+    padding: 10px;
+    background-color: #dfdfdf;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#container2 {
+    padding-top: 15px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+}
+
+.column3 {
+    flex: 1;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: #8b8b8b;
+    color: whitesmoke;
+}
+
+#container3 {
+    background-color: #9c9c9c;
+    padding-bottom: 2rem;
+}
+
+#welcome {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#photo img {
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 5px 10px 15px 0px black;
+}

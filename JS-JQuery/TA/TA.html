@@ -1,0 +1,48 @@
+<!-- Create a simple web application using a combination of HTML, CSS, and JavaScript and/or jQuery that applies the concepts we have discussed, as follows.
+
+Variables. (udah)
+Conditional blocks (covered in Controls and Selection). (udah)
+Functions. (udah)
+jQuery Events. (udah)
+jQuery + DOM. (udah)
+AJAX. (udah)
+The six features above must be present in the web application you create. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kuis10</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="TA.js"></script>
+
+    <link rel="stylesheet" href="TA.css">
+</head>
+
+<body>
+    <div id="container">
+            <strong>
+                Weather Forecast
+            </strong>
+    </div>
+
+    </div>
+
+    <div id="container-cuaca">
+        <div class="city-weather-container" id="Jakarta"></div>
+        <div class="city-weather-container" id="Sydney"></div>
+        <div class="city-weather-container" id="London"></div>
+        <div class="city-weather-container" id="Paris"></div>
+        <div class="city-weather-container" id="Milan"></div>
+        <div class="city-weather-container" id="Nevada"></div>
+    </div>
+    <br>
+    <br>
+    <section id="weather">
+        <input type="text" id="city-input" placeholder="Enter city name">
+        <button id="get-weather-btn">Get Weather</button>
+        <div id="weather-result"></div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!-- kodingan web-app dengan  HTML, CSS, dan JavaScript dan atau  jQuery yang menerapkan konsep berikut :
+
+Variabel.
+Blok kondisional (ada pada materi Kontrol dan Seleksi).
+Fungsi.
+jQuery events.
+jQuery + DOM.
+
+Usahakan agar kelima fitur di atas ada pada aplikasi web yang kamu buat. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Web App</title>
+    <style>
+        /* CSS styling */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .highlight {
+            background-color: #eb93eb;
+        }
+
+        #container {
+            display: flex;
+            flex: 1;
+            background-color: #474747;
+            color: white;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>
+            Pre-test JS dan jQuery
+        </h1>
+    </div>
+
+    <!-- Variabel -->
+    <script>
+        const greeting = "Halo, dunia!";
+        console.log(greeting);
+    </script>
+
+    <!-- Blok kondisional -->
+    <script>
+        const isRaining = true;
+        if (isRaining) {
+            console.log("Hari ini hujan.");
+        } else {
+            console.log("Hari ini cerah.");
+        }
+    </script>
+
+    <!-- Fungsi -->
+    <script>
+        function multiply(a, b) {
+            return a * b;
+        }
+        const result = multiply(25, 4);
+        console.log("Hasil perkalian:", result);
+    </script>
+
+    <!-- jQuery events -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                $("p").toggleClass("highlight");
+            });
+        });
+    </script>
+
+    <!-- jQuery + DOM -->
+    <p>Klik tombol di bawah untuk mengubah warna teks:</p>
+    <button>Ubah Warna</button>
+</body>
+</html>
